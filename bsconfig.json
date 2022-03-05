@@ -1,0 +1,24 @@
+{
+  "name": "rescript-nextjs-mobile-history",
+  "namespace": false,
+  "reason": { "react-jsx": 3 },
+  "refmt": 3,
+  "bs-dependencies": ["@rescript/react", "bs-fetch", "@ryyppy/rescript-promise"],
+  "ppx-flags": [],
+  "sources": [
+    { "dir": "src", "subdirs": true }
+  ],
+  "package-specs": {
+    "module": "es6",
+    "in-source": true
+  },
+  "suffix": ".js",
+  "warnings": {
+    "number": "-3",
+    "error": "+101+8"
+  },
+  "gentypeconfig": {
+    "language": "untyped",
+    "shims": []
+  }
+}
